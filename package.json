@@ -4,9 +4,10 @@
     "workshop:build": "vuepress build workshop"
   },
   "devDependencies": {
+    "@dovyp/vuepress-plugin-clipboard-copy": "dovy/plugin-clipboard-copy",
     "@vuepress/plugin-active-header-links": "^1.0.0-alpha.42"
   },
   "dependencies": {
-    "vuepress": "^1.0.4"
+    "vuepress": "^1.0.0-alpha.44"
   }
 }

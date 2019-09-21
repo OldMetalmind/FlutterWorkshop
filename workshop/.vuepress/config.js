@@ -48,11 +48,14 @@ module.exports = {
       }
   },
   plugins: [
-    "@vuepress/active-header-links",
-    {
-      sidebarLinkSelector: ".sidebar-link",
-      headerAnchorSelector: ".header-anchor",
-      headerTopOffset: 120
-    }
+    [
+      "@vuepress/active-header-links",
+      {
+        sidebarLinkSelector: ".sidebar-link",
+        headerAnchorSelector: ".header-anchor",
+        headerTopOffset: 120
+      }
+    ],
+    ['@dovyp/vuepress-plugin-clipboard-copy', true]
   ]
 };
